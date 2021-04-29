@@ -1,0 +1,5 @@
+<!--pages/edit/edit.wxml-->
+<view>
+  <text>image path: {{image}}</text>
+  <image src="{{image}}" mode="aspectFit" class="preview"></image>
+</view>

@@ -1,0 +1,12 @@
+/* pages/test/test.wxss */
+.page-test{
+  width: 100vw;
+  height: 100vh;
+}
+
+.rect{
+  width: 150rpx;
+  height: 150rpx;
+  background-color: blue;
+  transform: translateX(100px);
+}

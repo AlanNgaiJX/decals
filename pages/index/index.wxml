@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view class="page-index">
+  <view class="app-logo"></view>
+  <view class="create-pannel">
+    <view class="create-item" bind:tap="createProject" data-type="camera">
+      <view class="icon-wrap camera-icon"></view>
+      <text>拍照</text>
+    </view>
+    <view class="create-item"  bind:tap="createProject" data-type="album">
+      <view class="icon-wrap album-icon"></view>
+      <text>相册</text>
+    </view>
+    <view class="create-item"  bind:tap="createProject" data-type="canvas">
+      <view class="icon-wrap canvas-icon"></view>
+      <text>画板</text>
+    </view>
+  </view>
+</view>

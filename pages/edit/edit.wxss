@@ -1,0 +1,5 @@
+/* pages/edit/edit.wxss */
+.preview{
+  width: 600rpx;
+  height: 600rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<view class="page-test">
+  <view class="rect"></view>
+</view>
